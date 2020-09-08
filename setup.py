@@ -20,9 +20,9 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires =[
-        "numpy==1.16.1",
-        "pandas==0.25.2",
-        "torch>=1.3.1"
+        "numpy>=1.18.5",
+        "pandas>=0.25.2",
+        "torch==1.2.0"
     ],
     entry_points='''
         [console_scripts]
