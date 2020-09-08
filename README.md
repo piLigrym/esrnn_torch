@@ -4,14 +4,15 @@
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360+/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/kdgutier/esrnn_torch/blob/master/LICENSE)
 
+Forked from the base version in order to change requirements and setup versions.
 
 # Pytorch Implementation of the ES-RNN
 Pytorch implementation of the ES-RNN algorithm proposed by Smyl, winning submission of the M4 Forecasting Competition. The class wraps fit and predict methods to facilitate interaction with Machine Learning pipelines along with evaluation and data wrangling utility. Developed by [Autonlab](https://www.autonlab.org/)’s members at Carnegie Mellon University.
 
 ## Installation Prerequisites
-* numpy==1.16.1
-* pandas==0.25.2
-* pytorch>=1.3.1
+* numpy>=1.18.5
+* pandas>=0.25.2
+* pytorch==1.2.0
 
 ## Installation
 
